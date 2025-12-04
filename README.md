@@ -44,9 +44,13 @@ jackfruit-miniproject/
 - CSV logs like:
 - 
 Username,Status,Timestamp
+
   27ayushk,Success,2025-12-04 12:45
+  
   27ayushk,Failed,2025-12-04 12:46
+  
   27ayushk,Failed,2025-12-04 12:47
+  
   27ayushk,Success,2025-12-04 12:48
 
 🔹 Team Members
