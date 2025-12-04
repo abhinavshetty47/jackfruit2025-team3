@@ -49,10 +49,10 @@ def log_attempt(username, status):
         "Timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
 
-    # Append log to CSV using pandas
+    # If CSV exists → read it
     if os.path.exists(LOG_FILE):
         df = pd.read_csv(LOG_FILE)
-        df = df.append(entry, ignore_index=True)
+        df = pd.concat([df, pd.DataFrame([entry])], ignore_index=True)
     else:
         df = pd.DataFrame([entry])
 
@@ -107,6 +107,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-    
     
