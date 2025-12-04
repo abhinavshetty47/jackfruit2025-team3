@@ -6,15 +6,11 @@ from datetime import datetime
 USER_FILE = "users.txt"
 LOG_FILE = "login_logs.csv"
 
-# ----------------------------
 # Password Hashing Function
-# ----------------------------
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
-# ----------------------------
 # Register User
-# ----------------------------
 def register():
     username = input("Enter new username: ").strip()
     password = input("Enter new password: ").strip()
@@ -39,9 +35,7 @@ def register():
 
     print("Registration successful!")
 
-# ----------------------------
 # Log Login Attempts using Pandas
-# ----------------------------
 def log_attempt(username, status):
     entry = {
         "Username": username,
@@ -58,9 +52,7 @@ def log_attempt(username, status):
 
     df.to_csv(LOG_FILE, index=False)
 
-# ----------------------------
 # Login User
-# ----------------------------
 def login():
     username = input("Enter username: ").strip()
     password = input("Enter password: ").strip()
@@ -82,9 +74,7 @@ def login():
     print("Invalid credentials!")
     log_attempt(username, "Failed")
 
-# ----------------------------
 # Menu
-# ----------------------------
 def main():
     while True:
         print("\n---- Secure Login System ----")
@@ -108,3 +98,4 @@ if __name__ == "__main__":
     main()
 
     
+
