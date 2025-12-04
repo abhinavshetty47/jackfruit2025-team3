@@ -18,16 +18,6 @@ To design and implement a secure login system that allows users to register and 
 - File handling  
 - CSV logging  
 
-🔹 Project Structure
-jackfruit-miniproject/
-│
-├── code/
-│ └── login_system.py
-│
-├── users.txt
-├── login_logs.csv
-└── README.md
-
 🔹 How to Run the Project
 1. Install required libraries:
    pip install pandas
@@ -37,21 +27,6 @@ jackfruit-miniproject/
 - `1` → Register user  
 - `2` → Login user  
 - `3` → Exit  
-
-🔹 Output Examples
-- User registration  
-- User login validation  
-- CSV logs like:
-- 
-Username,Status,Timestamp
-
-  27ayushk,Success,2025-12-04 12:45
-  
-  27ayushk,Failed,2025-12-04 12:46
-  
-  27ayushk,Failed,2025-12-04 12:47
-  
-  27ayushk,Success,2025-12-04 12:48
 
 🔹 Team Members
 - Asif Parasappanavar – GitHub ID  
