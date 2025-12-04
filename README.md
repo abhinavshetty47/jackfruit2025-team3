@@ -29,7 +29,7 @@ To design and implement a secure login system that allows users to register and 
 - `3` → Exit  
 
 🔹 Team Members
-- Asif Parasappanavar –   @asifp7
+- Asif Parasappanavar –   @AsifP7
 - Amrutgouda Patil – @amrutgoudapatil 
 - Ayush K – @27ayushk  
 - Abhinav Shetty – @abhinavshetty47
