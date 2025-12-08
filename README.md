@@ -35,5 +35,5 @@ To design and implement a secure login system that allows users to register and 
 - Abhinav Shetty – @abhinavshetty47
   
 🔹 Mentor
-**amikak@pes.edu (PES University)**
+**ambikak@pes.edu (PES University)**
 
