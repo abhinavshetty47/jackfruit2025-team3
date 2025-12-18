@@ -32,7 +32,7 @@ To design and implement a secure login system that allows users to register and 
 - Asif Parasappanavar –   @AsifP7
 - Amrutgouda Patil – @amrutgoudapatil 
 - Ayush K – @27ayushk  
-- Abhinav Shetty – @abhinavshetty47
+- Abhinav Shetty – @abhinow47
   
 🔹 Mentor
 **ambikak@pes.edu (PES University)**
